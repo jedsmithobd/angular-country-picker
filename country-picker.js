@@ -246,7 +246,7 @@ angular.module('angular-country-picker',[])
       {"name":"Uganda","alpha2":"UG","alpha3":"UGA","numeric":"800"},
       {"name":"Ukraine","alpha2":"UA","alpha3":"UKR","numeric":"804"},
       {"name":"United Arab Emirates (the)","alpha2":"AE","alpha3":"ARE","numeric":"784"},
-      {"name":"United Kingdom of Great Britain and Northern Ireland (the)","alpha2":"GB","alpha3":"GBR","numeric":"826"},
+      {"name":"United Kingdom","alpha2":"GB","alpha3":"GBR","numeric":"826"},
       {"name":"United States Minor Outlying Islands (the)","alpha2":"UM","alpha3":"UMI", "numeric":"581"},
       {"name":"United States of America (the)","alpha2":"US","alpha3":"USA","numeric":"840"},
       {"name":"Uruguay","alpha2":"UY","alpha3":"URY","numeric":"858"},
