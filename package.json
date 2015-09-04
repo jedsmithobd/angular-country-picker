@@ -1,7 +1,7 @@
 {
-  "name": "angular-country-picker",
+  "name": "us-angular-country-picker",
   "version": "1.0.1",
-  "description": "AngularJS directive to generate a list of countries as options of the select element.",
+  "description": "AngularJS directive to generate a list of countries as options of the select element with US on top.",
   "main": "country-picker.js",
   "scripts": {
     "build": "uglifyjs country-picker.js -o country-picker.min.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/Puigcerber/angular-country-picker"
+    "url": "https://github.com/jedsmithobd/angular-country-picker"
   },
   "keywords": [
     "AngularJS",
@@ -17,7 +17,7 @@
     "select",
     "country picker"
   ],
-  "author": "Pablo Villoslada Puigcerber <pablo85@gmail.com>",
+  "author": "Jedediah Smith <jed@obdstudios.com>",
   "license": "MIT",
   "devDependencies": {
     "jasmine-core": "^2.1.3",

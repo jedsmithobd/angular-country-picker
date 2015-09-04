@@ -1,13 +1,13 @@
-# angular-country-picker
+# us-angular-country-picker
 
-AngularJS directive to generate a list of countries as options of the select element.
+AngularJS directive to generate a list of countries as options of the select element. This is based off of [angular-country-picker](https://github.com/Puigcerber/angular-country-picker) with the only change being that US is moved to the top.
 
 ## Installation
 
 You can install the directive using [Bower](http://bower.io/):
 
 ```bash
-$ bower install angular-country-picker
+$ bower install us-angular-country-picker
 ```
 
 Then you have to include it in your HTML:
@@ -16,10 +16,10 @@ Then you have to include it in your HTML:
 <script src="bower_components/angular-country-picker/country-picker.js"></script>
 ```
 
-And inject the module `angular-country-picker` as a dependency of your application:
+And inject the module `us-angular-country-picker` as a dependency of your application:
 
 ```js
-angular.module('webApp', ['angular-country-picker']);
+angular.module('webApp', ['us-angular-country-picker']);
 ```
 
 ## Usage

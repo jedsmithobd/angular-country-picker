@@ -9,9 +9,10 @@
  * @example
  * <select ng-model="selectedCountry" pvp-country-picker="name"></select>
  */
-angular.module('angular-country-picker',[])
+angular.module('us-angular-country-picker',[])
   .directive('pvpCountryPicker', function() {
     var countries = [
+      {"name":"United States of America (the)","alpha2":"US","alpha3":"USA","numeric":"840"},
       {"name":"Afghanistan","alpha2":"AF","alpha3":"AFG","numeric":"004"},
       {"name":"Åland Islands","alpha2":"AX","alpha3":"ALA","numeric":"248"},
       {"name":"Albania","alpha2":"AL","alpha3":"ALB","numeric":"008"},
@@ -248,7 +249,6 @@ angular.module('angular-country-picker',[])
       {"name":"United Arab Emirates (the)","alpha2":"AE","alpha3":"ARE","numeric":"784"},
       {"name":"United Kingdom of Great Britain and Northern Ireland (the)","alpha2":"GB","alpha3":"GBR","numeric":"826"},
       {"name":"United States Minor Outlying Islands (the)","alpha2":"UM","alpha3":"UMI", "numeric":"581"},
-      {"name":"United States of America (the)","alpha2":"US","alpha3":"USA","numeric":"840"},
       {"name":"Uruguay","alpha2":"UY","alpha3":"URY","numeric":"858"},
       {"name":"Uzbekistan","alpha2":"UZ","alpha3":"UZB","numeric":"860"},
       {"name":"Vanuatu","alpha2":"VU","alpha3":"VUT","numeric":"548"},
