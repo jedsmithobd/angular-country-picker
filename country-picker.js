@@ -276,3 +276,4 @@ angular.module('us-angular-country-picker',[])
       restrict: 'A'
     };
   });
+  
