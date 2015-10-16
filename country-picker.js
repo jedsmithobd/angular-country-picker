@@ -247,7 +247,7 @@ angular.module('us-angular-country-picker',[])
       {"name":"Uganda","alpha2":"UG","alpha3":"UGA","numeric":"800"},
       {"name":"Ukraine","alpha2":"UA","alpha3":"UKR","numeric":"804"},
       {"name":"United Arab Emirates (the)","alpha2":"AE","alpha3":"ARE","numeric":"784"},
-      {"name":"United Kingdom of Great Britain and Northern Ireland (the)","alpha2":"GB","alpha3":"GBR","numeric":"826"},
+      {"name":"United Kingdom","alpha2":"GB","alpha3":"GBR","numeric":"826"},
       {"name":"United States Minor Outlying Islands (the)","alpha2":"UM","alpha3":"UMI", "numeric":"581"},
       {"name":"Uruguay","alpha2":"UY","alpha3":"URY","numeric":"858"},
       {"name":"Uzbekistan","alpha2":"UZ","alpha3":"UZB","numeric":"860"},
@@ -276,4 +276,3 @@ angular.module('us-angular-country-picker',[])
       restrict: 'A'
     };
   });
-  
